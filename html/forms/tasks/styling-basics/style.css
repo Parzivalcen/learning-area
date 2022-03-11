@@ -1,0 +1,35 @@
+body {
+  background-color: #333;
+  font: 1.3rem sans-serif;
+  padding: 0.5em;
+  margin: 0;
+  /* justify-items: center; */
+}
+li {
+  list-style: none;
+}
+form {
+  border: 1px solid lime;
+  position: relative;
+  width: 400px;
+  height: 350px;
+  margin: 0 auto;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+}
+input,
+textarea {
+  font: 1.4em/1.5em "handwriting", cursive, sans-serif;
+  border: none;
+  padding: 0 10px;
+  margin: 0;
+  width: 80%;
+  background: none;
+}
+padding: 1em;
+box-sizing: border-box;
+background: #fff;
